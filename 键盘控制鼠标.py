@@ -1,6 +1,5 @@
 from pyautogui import *
 from keyboard import *
-from threading import *
 a = {
     "w": lambda: moveTo(position()[0], position()[1] - 10),
     "s": lambda: moveTo(position()[0], position()[1] + 10),
